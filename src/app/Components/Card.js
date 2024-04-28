@@ -20,7 +20,7 @@ const iconUrlMap = {
   deploy: "/Assets/Work/Card/eye.png"
 };
 
-function Card({data}) {
+function Card({ data }) {
   return (
     <div className="Card_Parent">
       <div className="CardC1">
@@ -40,15 +40,15 @@ function Card({data}) {
           </ul>
         </div>
         <div className="CardC2_Icons">
-        <>
-        {data.icons.map((icon, index) => (
-           <div className="Icons">
-             <img key={index} src={iconUrlMap[icon]} alt={`${icon} Icon`} />
-           </div>
-          ))}
-        </>
-          
-          <div class="Addtional">
+          <>
+            {data.icons.map((icon, index) => (
+              <div className="Icons" key={index}>
+                <img src={iconUrlMap[icon]} alt={`${icon} Icon`} />
+              </div>
+            ))}
+          </>
+
+          <div class="Additional">
             {data.additionalIcons.map((icon, index) => (
               <img key={index} src={iconUrlMap[icon]} alt={`${icon} Icon`} />
             ))}
