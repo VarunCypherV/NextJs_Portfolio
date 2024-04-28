@@ -12,7 +12,6 @@ function Hero() {
           <NavBar />
         </div>
         <div className="H_Title">
-          {/* <img className="ModelImage" src="/Assets/MODEL.png" /> */}
           <img className="H_TopRightImage" src="/Assets/Hero/Polygon1.png" />
           <div className="H_Content">
             <p className="H_subtitle">Hello I Am</p>
@@ -21,6 +20,7 @@ function Hero() {
               <p>Get In Touch</p>
               <img src="/Assets/Hero/Arrow.png"/>
             </div>
+            <img className="H_TopRightImage" src="/Assets/Hero/Polygon1.png" />
           </div>
         </div>
       </div>
