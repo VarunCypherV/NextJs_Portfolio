@@ -42,7 +42,7 @@ function CabinetTech() {
           <img src="/Assets/Work/github.png"/>
         </div>
         <div className='CT_Child'>
-          <img src="/Assets/Work/Vector.png"/>
+          <img src="/Assets/Work/pyb2.png"/>
         </div>
     </div>
   )
