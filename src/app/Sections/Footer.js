@@ -4,6 +4,8 @@ import React from "react";
 import Socials from "../Components/Socials";
 
 function Footer() {
+  const resumePath = "/Assets/Resume/resume.pdf";
+
   return (
     <div className="F_Parent">
       <div className="F_Row1_Parent1">
@@ -28,10 +30,10 @@ function Footer() {
                 <h4>VARUNVK2004@GMAIL.COM</h4>
             </div>
 
-            <div class="resume-container">
-                <img src="/Assets/Footer/pdf.png" class="resume-image" />
-                <h4>RESUME</h4>
-            </div>
+            <a href={resumePath} className="resume-container" target="_blank">
+              <img src="/Assets/Footer/pdf.png" className="resume-image" />
+              <h4>RESUME</h4>
+            </a>
           </div>
         </div>
         <div className="F_Row1_Child3">
