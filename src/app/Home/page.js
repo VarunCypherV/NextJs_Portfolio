@@ -10,6 +10,7 @@ import Footer from "../Sections/Footer";
 function page() {
   return (
     <div>
+     
       <div id="hero">
         <Hero />
       </div>
