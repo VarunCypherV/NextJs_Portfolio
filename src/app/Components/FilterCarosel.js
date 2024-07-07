@@ -15,7 +15,7 @@ const data = [
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/EMBlogs.png",
     title: "ELEMENTAL BLOGS",
     description: "An No-Code Blog Website with Webflow CMS",
     features: ["Fully Responsive", "Animations","Dynamic slug-page generation for blogs"],
@@ -25,7 +25,7 @@ const data = [
     deployment : "https://elementalblogs.webflow.io/"
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/chr.png",
     title: "CHRONO REPORT WIZARD",
     description: "An Automation Web Crawler Report Scheduler-Delivery Software",
     features: ["Minimal Delay","Email Delivery","Schedule for any date you want"],
@@ -35,7 +35,7 @@ const data = [
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/gg.png",
     title: "GRUB GENIE",
     description: "An Ecommerce Website With a Unique Theme and Concept",
     features: ["Gemini API", "GoogleMaps API", "Combating Zero Hunger SDG"],
@@ -45,7 +45,7 @@ const data = [
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/vc.png",
     title: "GOOGLE EXTENSION BASED AUTHENTICATION",
     description: "Naor Shamir Visual Cryptography Techniques Based Authentication Using google extension",
     features: ["Customizable to required database and website","Single or Multi Website Authentication"],
@@ -55,7 +55,7 @@ const data = [
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/chat.png",
     title: "MINIMAL CHATAPP",
     description: "A simple chat app using google authentication",
     features: ["Live Chat", "Google OAuth", "Multi Channel"],
@@ -65,7 +65,7 @@ const data = [
     deployment : "kclone-ed42d.web.app"
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/bh.png",
     title: "BLOGGER HAVEN",
     description: "A Simple Blog Website with creative features",
     features: ["iFrame architecture","Daily Random Blog Feed","Side Scroll View for all blogs"],
@@ -74,17 +74,17 @@ const data = [
     github : "https://github.com/VarunCypherV/BloggerHaven",
     deployment : ""
   },{
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/drawa.png",
     title: "DrawIt",
-    description: "An mobile application for drawing and downloading images ",
+    description: "An mobile application for learning through drawing",
     features: ["Custom Colours","Variety of Pen Sizes","Download Drawing"],
-    icons: ["reactnative"],
+    icons: ["reactnative","python","flask"],
     additionalIcons: ["github", "deploy"],
     github : "https://github.com/VarunCypherV/SmartEd",
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/ml.jpg",
     title: "Stock Price Predictor",
     description: "AN Machine Learning Model to predict stock prices given previous data",
     features: ["99+% accuracy","RandomForest Regressor"],
@@ -94,7 +94,7 @@ const data = [
     deployment : ""
   },
   {
-    cardC1Img: "/Assets/Work/Card/em.png",
+    cardC1Img: "/Assets/PROJECTS/ml.jpg",
     title: "Phishing Website Detector With Autoencoders",
     description: "An Deep Learning cum Machine Learning model to predict phishing websites from benign sites",
     features: ["99+%","Hybrid Autoencoder+SVM Model"],
@@ -184,7 +184,7 @@ function FilterCarosel() {
       <div className="FC_Filter_Parent">
         <div className="FC_Child" onClick={filterByWeb}>
           <img src="/Assets/Work/Filtericon.png" alt="Filter Icon" />
-          <p>WEB</p>
+          <p>DEV</p>
         </div>
         <div className="FC_Child" onClick={filterByUIUX}>
           <img src="/Assets/Work/Filtericon.png" alt="Filter Icon" />
