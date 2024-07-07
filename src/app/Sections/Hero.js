@@ -20,6 +20,7 @@ function Hero() {
               <p>Get In Touch</p>
               <img src="/Assets/Hero/Arrow.png"/>
             </div>
+            <img className="Me" src="/Assets/Hero/mehd.png" />
             <img className="H_TopRightImage" src="/Assets/Hero/Polygon1.png" />
           </div>
         </div>

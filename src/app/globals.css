@@ -827,6 +827,9 @@ body {
   .FC_Card {
     flex: 0 0 33.33%; /* Display 3 cards per row */
   }
+  .Me {
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -1018,5 +1021,14 @@ body {
   pointer-events: none;
 }
 
+.Me {
+  position: absolute;
+  right:5px;
+  /* bottom:px; */
+  filter: brightness(140%);
+  top:-80px;
+  z-index: 1;
+  width: 550px;
+}
 
 
