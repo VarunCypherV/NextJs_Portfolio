@@ -377,11 +377,11 @@ body {
   margin-left: 5px;
   display: flex;
   flex-direction: column;
-
+  align-items: flex-start;
   > div {
-    display: flex;
-    align-items: center;
-    align-self: flex-end;
+    /* display: flex; */
+    /* align-items: center;
+    align-self: flex-end; */
     justify-content: center;
     flex-direction: column;
     > img {
@@ -391,7 +391,7 @@ body {
   }
 }
 .Icons {
-  flex: 1;
+    flex:1;
   > img {
     height: 30px;
     width: 30px;
@@ -986,4 +986,37 @@ body {
     }
   }
 }
+
+
+
+
+
+.Additional a {
+  
+}
+
+.Additional img {
+  border-radius: 50%;
+  max-width: 30px;
+  max-height: 30px;
+  margin-top: 10px;
+}
+
+.icon-black {
+  filter: brightness(0);
+}
+
+.icon-green {
+  filter: sepia(100%) saturate(10000%) hue-rotate(90deg) ;
+}
+
+
+.icon-red {
+  filter: sepia(1) saturate(10000%) hue-rotate(0deg);
+}
+.unclickable{
+  pointer-events: none;
+}
+
+
 

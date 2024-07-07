@@ -1,10 +1,11 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
-
 const iconUrlMap = {
-  react: "/Assets/Work/Card/react.png",
-  next: "/Assets/Work/Card/next.png",
+  reactjs: "/Assets/Work/Card/react.png",
+  reactnative: "/Assets/Work/Card/react.png",
+  nextjs: "/Assets/Work/Card/next.png",
   nodejs: "/Assets/Work/Card/nodejs.png",
   express: "/Assets/Work/Card/express.png",
   mongodb: "/Assets/Work/Card/mongodb.png",
@@ -14,10 +15,19 @@ const iconUrlMap = {
   php: "/Assets/Work/Card/php.png",
   figma: "/Assets/Work/Card/figma.png",
   vagrant: "/Assets/Work/Card/vagrant.png",
+  webflow: "/Assets/Work/Card/wbco.jpg",
   aws: "/Assets/Work/Card/aws.png",
   github: "/Assets/Work/Card/github.png",
   gatsby: "/Assets/Work/Card/gatsby.png",
-  deploy: "/Assets/Work/Card/eye.png"
+  deploy: "/Assets/Work/Card/eye.png",
+  selenium: "/Assets/Work/Card/seb.png",
+  html:"/Assets/Work/Card/html.png",
+  css:"/Assets/Work/Card/css.png",
+  js:"/Assets/Work/Card/js.png",
+  python:"/Assets/Work/Card/python.png",
+  google:"/Assets/Work/Card/google.png",
+  flutter:"/Assets/Work/Card/flutter.png",
+  space: "",
 };
 
 function Card({ data }) {
@@ -41,17 +51,38 @@ function Card({ data }) {
         </div>
         <div className="CardC2_Icons">
           <>
-            {data.icons.map((icon, index) => (
-              <div className="Icons" key={index}>
-                <img src={iconUrlMap[icon]} alt={`${icon} Icon`} />
-              </div>
-            ))}
+            {data.icons.map((icon, index) => {
+              if (icon === "") {
+                return (
+                  <div key={index}>
+                    <br />
+                    <br />
+                  </div>
+                );
+              } else {
+                return (
+                  <div className="Icons" key={index}>
+                    <img src={iconUrlMap[icon]} alt={`${icon} Icon`} />
+                  </div>
+                );
+              }
+            })}
           </>
-
-          <div class="Additional">
-            {data.additionalIcons.map((icon, index) => (
-              <img key={index} src={iconUrlMap[icon]} alt={`${icon} Icon`} />
-            ))}
+          <div className="Additional">
+            {data.additionalIcons.map((icon, index) => {
+              const url = icon === "github" ? data.github : data.deployment;
+              const iconClass = url === "" ? "icon-red" : "icon-black";
+              const clickable = url === "" ? "unclickable" : "clickable";
+              return (
+                <Link key={index} href={url} class={clickable}>
+                  <img
+                    className={iconClass}
+                    src={iconUrlMap[icon]}
+                    alt={`${icon} Icon`}
+                  />
+                </Link>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -60,6 +91,3 @@ function Card({ data }) {
 }
 
 export default Card;
-
-
-

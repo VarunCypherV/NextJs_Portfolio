@@ -7,65 +7,101 @@ const data = [
   {
     cardC1Img: "/Assets/Work/Card/em.png",
     title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
+    description: "An Ecommerce Website With a Unique Theme",
     features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs"],
+    icons: ["figma", "nextjs", "mongodb", "nodejs"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/ElementalMarketPlace",
+    deployment : ""
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs"],
+    title: "ELEMENTAL BLOGS",
+    description: "An No-Code Blog Website with Webflow CMS",
+    features: ["Fully Responsive", "Animations","Dynamic slug-page generation for blogs"],
+    icons: ["figma", "webflow","",""],
     additionalIcons: ["github", "deploy"],
+    github : "",
+    deployment : "https://elementalblogs.webflow.io/"
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs"],
+    title: "CHRONO REPORT WIZARD",
+    description: "An Automation Web Crawler Report Scheduler-Delivery Software",
+    features: ["Minimal Delay","Email Delivery","Schedule for any date you want"],
+    icons: ["nextjs", "flask", "mysql", "selenium"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/ChronoReportWizard",
+    deployment : ""
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
+    title: "GRUB GENIE",
     description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs"],
+    features: ["Gemini API", "GoogleMaps API", "Combating Zero Hunger SDG"],
+    icons: ["flutter","mongodb", "nodejs"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/GrubGenie",
+    deployment : ""
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs"],
+    title: "GOOGLE EXTENSION BASED AUTHENTICATION",
+    description: "Naor Shamir Visual Cryptography Techniques Based Authentication Using google extension",
+    features: ["Customizable to required database and website","Single or Multi Website Authentication"],
+    icons: ["google", "flask", "firebase"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/visual-cryptography",
+    deployment : ""
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["figma", "gatsby", "mongodb", "nodejs","ML"],
+    title: "MINIMAL CHATAPP",
+    description: "A simple chat app using google authentication",
+    features: ["Live Chat", "Google OAuth", "Multi Channel"],
+    icons: ["reactjs", "firebase", "nodejs"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/SlackCloneRedux",
+    deployment : "kclone-ed42d.web.app"
   },
   {
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["aws"],
+    title: "BLOGGER HAVEN",
+    description: "A Simple Blog Website with creative features",
+    features: ["iFrame architecture","Daily Random Blog Feed","Side Scroll View for all blogs"],
+    icons: ["html", "css", "js","php"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/BloggerHaven",
+    deployment : ""
   },{
     cardC1Img: "/Assets/Work/Card/em.png",
-    title: "ELEMENTAL MARKETPLACE",
-    description: "An Ecommerce Website With a Unique Theme and Concept",
-    features: ["Strapi CMS", "Password hashed in mongodb", "Payment Gateway"],
-    icons: ["aws"],
+    title: "DrawIt",
+    description: "An mobile application for drawing and downloading images ",
+    features: ["Custom Colours","Variety of Pen Sizes","Download Drawing"],
+    icons: ["reactnative"],
     additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/SmartEd",
+    deployment : ""
+  },
+  {
+    cardC1Img: "/Assets/Work/Card/em.png",
+    title: "Stock Price Predictor",
+    description: "AN Machine Learning Model to predict stock prices given previous data",
+    features: ["99+% accuracy","RandomForest Regressor"],
+    icons: ["python"],
+    additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/stockPricePredictor",
+    deployment : ""
+  },
+  {
+    cardC1Img: "/Assets/Work/Card/em.png",
+    title: "Phishing Website Detector With Autoencoders",
+    description: "An Deep Learning cum Machine Learning model to predict phishing websites from benign sites",
+    features: ["99+%","Hybrid Autoencoder+SVM Model"],
+    icons: ["python"],
+    additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/PhishingWebsitesDetector",
+    deployment : ""
   },
 ];
 
@@ -89,7 +125,7 @@ function FilterCarosel() {
   
   const filterByWeb = async () => {
     const filtered = data.filter((item) =>
-      ["react", "gatsby", "nodejs", "next", "flask", "mongodb"].some((icon) =>
+      ["react", "gatsby", "nodejs", "next", "flask", "mongodb","webflow"].some((icon) =>
         item.icons.includes(icon)
       )
     );

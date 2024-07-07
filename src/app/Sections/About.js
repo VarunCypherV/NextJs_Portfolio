@@ -4,7 +4,7 @@ import Timeline from "../Components/Timeline";
 
 const data = [
   {
-    date: "SEPT - NOV 2023",
+    date: "SEPT 2023 - NOV 2023",
     description: "SUMMER INTERNSHIP at THE RAMCO CEMENTS LIMITED",
   },
   {
@@ -22,7 +22,7 @@ const data = [
   {
     date: "SEPT 2021",
     description:
-      "JOINED VELLORE INSTITUTE OF TECHNOLOGY CHENNAI - CURRENT CGPA - 8.92",
+      "JOINED VELLORE INSTITUTE OF TECHNOLOGY CHENNAI - CURRENT CGPA - 8.99",
   },
   {
     date: "AUG 2021",
@@ -53,7 +53,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="A_B_right">
+        <div className="A_B_right" id="#Work">
           {data.map((item, index) => (
             <Timeline key={index} data={item} />
           ))}
