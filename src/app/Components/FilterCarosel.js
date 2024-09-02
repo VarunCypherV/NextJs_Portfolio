@@ -25,6 +25,46 @@ const data = [
     deployment : "https://elementalblogs.webflow.io/"
   },
   {
+    cardC1Img: "/Assets/PROJECTS/Espn.png",
+    title: "Espn Page Rework",
+    description: "An Fully customized recreation of ESPN stats page of cricket player",
+    features: ["Innovative Modern Design", "Follows Design Principles"],
+    icons: ["figma","",""],
+    additionalIcons: ["github", "deploy"],
+    github : "",
+    deployment : "https://www.figma.com/design/9NmwHRLQPfJxNyCp4g9oiX/ESPN-Cricinfo?node-id=0-1&t=pqQviU8btCev33Hi-1"
+  },
+  {
+    cardC1Img: "/Assets/PROJECTS/chatapp.png",
+    title: "Landing Page : Chat App",
+    description: "An Simple yet meaningful Landing Page for marketing a chatapp",
+    features: ["Minimalistic Modern Design","Consistent yet innovative Design"],
+    icons: ["figma","",""],
+    additionalIcons: ["github", "deploy"],
+    github : "",
+    deployment : "https://www.figma.com/design/9NmwHRLQPfJxNyCp4g9oiX/ESPN-Cricinfo?node-id=0-1&t=pqQviU8btCev33Hi-1"
+  },
+  {
+    cardC1Img: "/Assets/PROJECTS/teamapp.png",
+    title: "Team App Website",
+    description: "A Full design of a Landing cum blog pages for a TeamApp Website",
+    features: ["Minimalistic Design", "Multipage Design","Follows Design Principles"],
+    icons: ["figma","webflow",""],
+    additionalIcons: ["github", "deploy"],
+    github : "",
+    deployment : "https://teamapp-b13119.webflow.io/"
+  },
+  ,{
+    cardC1Img: "/Assets/PROJECTS/drawa.png",
+    title: "Smart Learning Kids App",
+    description: "An mobile application for learning through drawing , writing or speaking",
+    features: ["Figma Protoyped Design","Variety of Pen Sizes","Download Drawing"],
+    icons: ["reactnative","python","flask","figma"],
+    additionalIcons: ["github", "deploy"],
+    github : "https://github.com/VarunCypherV/SmartEd",
+    deployment : "https://www.figma.com/proto/0vmcQNFLef3OKnKbFfN2lc/Smart-Education-App?page-id=307%3A15&node-id=307-49&node-type=FRAME&viewport=459%2C210%2C0.5&t=pdkIi4P0ZY6NxetY-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=307%3A49"
+  },
+  {
     cardC1Img: "/Assets/PROJECTS/chr.png",
     title: "CHRONO REPORT WIZARD",
     description: "An Automation Web Crawler Report Scheduler-Delivery Software",
@@ -72,15 +112,6 @@ const data = [
     icons: ["html", "css", "js","php"],
     additionalIcons: ["github", "deploy"],
     github : "https://github.com/VarunCypherV/BloggerHaven",
-    deployment : ""
-  },{
-    cardC1Img: "/Assets/PROJECTS/drawa.png",
-    title: "DrawIt",
-    description: "An mobile application for learning through drawing",
-    features: ["Custom Colours","Variety of Pen Sizes","Download Drawing"],
-    icons: ["reactnative","python","flask"],
-    additionalIcons: ["github", "deploy"],
-    github : "https://github.com/VarunCypherV/SmartEd",
     deployment : ""
   },
   {
