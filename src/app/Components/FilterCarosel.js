@@ -12,7 +12,7 @@ const data = [
     icons: ["figma", "nextjs", "mongodb", "nodejs"],
     additionalIcons: ["github", "deploy"],
     github : "https://github.com/VarunCypherV/ElementalMarketPlace",
-    deployment : ""
+    deployment : "https://www.figma.com/design/X8Gi0p0TZgxEi6Xg9X7GYY/EternalMarketplace?node-id=11-216&t=9QAI64M6V0mUvbCc-1"
   },
   {
     cardC1Img: "/Assets/PROJECTS/EMBlogs.png",
